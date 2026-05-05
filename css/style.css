@@ -211,8 +211,11 @@ nav a:hover { color: var(--accent); }
     }
 
     .about-box h2 {
-        font-size: 1.7rem; /* Чтобы "Технические перфекционисты" влезло */
+        font-size: 1.4rem; /* Еще меньше, чтобы точно влезло */
         line-height: 1.2;
+        hyphens: none; /* Запрет переноса по слогам */
+        overflow-wrap: normal; /* Запрет разрыва слов */
+        word-break: keep-all; /* Держать слова целиком */
     }
 
     .about-box p {
