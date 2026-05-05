@@ -211,11 +211,26 @@ nav a:hover { color: var(--accent); }
     }
 
     .about-box h2 {
-        font-size: min(5.5vw, 1.4rem); /* Адаптивный расчет: минимум между 5.5% ширины экрана и 1.4rem */
+        font-size: 4.8vw !important; /* Еще меньше, чтобы точно влезло */
         line-height: 1.2;
-        white-space: nowrap; /* Гарантируем одну строку без переносов */
-        hyphens: none;
-        word-break: keep-all;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        width: 100%;
+    }
+
+    .logo-circle {
+        background: transparent !important;
+        border: none !important;
+        width: 60px !important; /* Увеличим лого */
+        height: 60px !important;
+    }
+
+    .logo-circle img {
+        filter: brightness(1.2) contrast(1.1); /* Сделаем заметнее */
+        width: 100% !important;
+        height: 100% !important;
     }
 
     .about-box p {
