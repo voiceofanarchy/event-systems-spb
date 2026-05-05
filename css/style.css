@@ -211,11 +211,11 @@ nav a:hover { color: var(--accent); }
     }
 
     .about-box h2 {
-        font-size: 1.4rem; /* Еще меньше, чтобы точно влезло */
+        font-size: min(5.5vw, 1.4rem); /* Адаптивный расчет: минимум между 5.5% ширины экрана и 1.4rem */
         line-height: 1.2;
-        hyphens: none; /* Запрет переноса по слогам */
-        overflow-wrap: normal; /* Запрет разрыва слов */
-        word-break: keep-all; /* Держать слова целиком */
+        white-space: nowrap; /* Гарантируем одну строку без переносов */
+        hyphens: none;
+        word-break: keep-all;
     }
 
     .about-box p {
