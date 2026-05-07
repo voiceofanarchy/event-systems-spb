@@ -1,0 +1,21 @@
+# Event Systems (ИВЕНТ СИСТЕМЫ)
+
+Professional event production and equipment rental company based in Saint Petersburg, Russia.
+
+## Tech Stack
+- Frontend: HTML5, CSS3, JavaScript (ES6+)
+- Design System: Round & Slate Monochrome (32px border-radius, Manrope font)
+- Animations: Scroll-reveal via Intersection Observer API
+- Hosting: GitHub Pages
+
+## Architecture
+- `/css/style.css`: Core design system and mobile responsiveness.
+- `/js/main.js`: Scroll animations and interactive elements.
+- `/assets/`: High-quality equipment PNGs (transparent) and site media.
+
+## Equipment Focus
+- Audio: d&b audiotechnik, JBL VRX/PRX
+- Lighting: Clay Paky, Robe
+
+## Project Context
+The site is designed to be "modern premium" and industrial, reflecting the high-end nature of professional concert equipment.
